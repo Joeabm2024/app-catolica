@@ -1,0 +1,192 @@
+{
+  "version": 1,
+  "idioma": "es",
+  "oraciones": {
+    "senalCruz": {
+      "titulo": "Señal de la Cruz",
+      "texto": "Por la señal de la Santa Cruz, de nuestros enemigos líbranos, Señor, Dios nuestro. En el nombre del Padre, y del Hijo, y del Espíritu Santo. Amén."
+    },
+    "credo": {
+      "titulo": "Credo de los Apóstoles",
+      "texto": "Creo en Dios, Padre todopoderoso, Creador del cielo y de la tierra. Creo en Jesucristo, su único Hijo, nuestro Señor, que fue concebido por obra y gracia del Espíritu Santo; nació de santa María Virgen; padeció bajo el poder de Poncio Pilato; fue crucificado, muerto y sepultado; descendió a los infiernos; al tercer día resucitó de entre los muertos; subió a los cielos y está sentado a la derecha de Dios, Padre todopoderoso. Desde allí ha de venir a juzgar a vivos y muertos. Creo en el Espíritu Santo, la santa Iglesia católica, la comunión de los santos, el perdón de los pecados, la resurrección de la carne y la vida eterna. Amén."
+    },
+    "padreNuestro": {
+      "titulo": "Padre Nuestro",
+      "texto": "Padre nuestro, que estás en el cielo, santificado sea tu nombre; venga a nosotros tu Reino; hágase tu voluntad en la tierra como en el cielo. Danos hoy nuestro pan de cada día; perdona nuestras ofensas, como también nosotros perdonamos a los que nos ofenden; no nos dejes caer en la tentación y líbranos del mal. Amén."
+    },
+    "aveMaria": {
+      "titulo": "Ave María",
+      "texto": "Dios te salve, María, llena eres de gracia; el Señor es contigo. Bendita tú eres entre todas las mujeres y bendito es el fruto de tu vientre, Jesús. Santa María, Madre de Dios, ruega por nosotros, pecadores, ahora y en la hora de nuestra muerte. Amén."
+    },
+    "gloria": {
+      "titulo": "Gloria",
+      "texto": "Gloria al Padre, y al Hijo, y al Espíritu Santo. Como era en el principio, ahora y siempre, por los siglos de los siglos. Amén."
+    },
+    "jaculatoriaFatima": {
+      "titulo": "Jaculatoria de Fátima",
+      "texto": "Oh Jesús mío, perdona nuestros pecados, líbranos del fuego del infierno, lleva al cielo a todas las almas, especialmente a las más necesitadas de tu misericordia. Amén."
+    },
+    "salve": {
+      "titulo": "La Salve",
+      "texto": "Dios te salve, Reina y Madre de misericordia, vida, dulzura y esperanza nuestra. Dios te salve. A ti llamamos los desterrados hijos de Eva; a ti suspiramos, gimiendo y llorando en este valle de lágrimas. Ea, pues, Señora, abogada nuestra, vuelve a nosotros esos tus ojos misericordiosos; y después de este destierro, muéstranos a Jesús, fruto bendito de tu vientre. ¡Oh clemente, oh piadosa, oh dulce Virgen María! Ruega por nosotros, santa Madre de Dios, para que seamos dignos de alcanzar las promesas de nuestro Señor Jesucristo. Amén."
+    },
+    "oracionFinal": {
+      "titulo": "Oración final",
+      "texto": "Oh Dios, cuyo Hijo unigénito, con su vida, muerte y resurrección, nos alcanzó el premio de la vida eterna: concédenos, a quienes recordamos estos misterios del santísimo Rosario de la Virgen María, imitar lo que contienen y alcanzar lo que prometen. Por Jesucristo, nuestro Señor. Amén."
+    }
+  },
+  "tiposMisterios": [
+    {
+      "id": "gozosos",
+      "nombre": "Misterios Gozosos",
+      "descripcion": "Contemplamos la Encarnación y la infancia de Jesús.",
+      "diasSemana": [1, 6],
+      "misterios": [
+        {
+          "numero": 1,
+          "nombre": "La Encarnación del Hijo de Dios",
+          "citaBiblica": "Lucas 1, 26-38",
+          "meditacion": "María recibe con fe el anuncio del ángel y se entrega por completo a la voluntad de Dios."
+        },
+        {
+          "numero": 2,
+          "nombre": "La Visitación de María a santa Isabel",
+          "citaBiblica": "Lucas 1, 39-56",
+          "meditacion": "María lleva a Jesús a la casa de Isabel y convierte su alegría en servicio generoso."
+        },
+        {
+          "numero": 3,
+          "nombre": "El Nacimiento del Hijo de Dios",
+          "citaBiblica": "Lucas 2, 1-20",
+          "meditacion": "Jesús nace pobre y humilde para acercarnos el amor y la paz de Dios."
+        },
+        {
+          "numero": 4,
+          "nombre": "La Presentación de Jesús en el templo",
+          "citaBiblica": "Lucas 2, 22-38",
+          "meditacion": "María y José presentan a Jesús al Padre y cumplen fielmente la ley del Señor."
+        },
+        {
+          "numero": 5,
+          "nombre": "El Niño Jesús perdido y hallado en el templo",
+          "citaBiblica": "Lucas 2, 41-52",
+          "meditacion": "Jesús nos invita a buscar primero las cosas del Padre y a crecer en sabiduría y gracia."
+        }
+      ]
+    },
+    {
+      "id": "dolorosos",
+      "nombre": "Misterios Dolorosos",
+      "descripcion": "Contemplamos la Pasión y muerte de nuestro Señor Jesucristo.",
+      "diasSemana": [2, 5],
+      "misterios": [
+        {
+          "numero": 1,
+          "nombre": "La oración de Jesús en el huerto",
+          "citaBiblica": "Mateo 26, 36-46",
+          "meditacion": "Jesús enfrenta la angustia confiando en el Padre y aceptando su voluntad por amor."
+        },
+        {
+          "numero": 2,
+          "nombre": "La flagelación del Señor",
+          "citaBiblica": "Juan 19, 1",
+          "meditacion": "Jesús soporta el sufrimiento injusto y nos enseña la fuerza del amor que no responde con violencia."
+        },
+        {
+          "numero": 3,
+          "nombre": "La coronación de espinas",
+          "citaBiblica": "Mateo 27, 27-31",
+          "meditacion": "Jesús, verdadero Rey, acepta la humillación y permanece fiel a su misión."
+        },
+        {
+          "numero": 4,
+          "nombre": "Jesús con la cruz a cuestas",
+          "citaBiblica": "Lucas 23, 26-32",
+          "meditacion": "Cristo carga la cruz y camina con quienes sufren, invitándonos a ayudar a llevar las cargas ajenas."
+        },
+        {
+          "numero": 5,
+          "nombre": "La crucifixión y muerte de Jesús",
+          "citaBiblica": "Juan 19, 25-30",
+          "meditacion": "Desde la cruz, Jesús entrega su vida, perdona y nos confía al cuidado maternal de María."
+        }
+      ]
+    },
+    {
+      "id": "gloriosos",
+      "nombre": "Misterios Gloriosos",
+      "descripcion": "Contemplamos el triunfo de Cristo y la esperanza de la vida eterna.",
+      "diasSemana": [3, 7],
+      "misterios": [
+        {
+          "numero": 1,
+          "nombre": "La Resurrección del Señor",
+          "citaBiblica": "Mateo 28, 1-10",
+          "meditacion": "Jesús vence la muerte y abre para todos una vida nueva llena de esperanza."
+        },
+        {
+          "numero": 2,
+          "nombre": "La Ascensión del Señor",
+          "citaBiblica": "Hechos 1, 6-11",
+          "meditacion": "Cristo vuelve al Padre y envía a sus discípulos a anunciar el Evangelio al mundo."
+        },
+        {
+          "numero": 3,
+          "nombre": "La venida del Espíritu Santo",
+          "citaBiblica": "Hechos 2, 1-13",
+          "meditacion": "El Espíritu Santo fortalece a la Iglesia y nos concede valentía para vivir la fe."
+        },
+        {
+          "numero": 4,
+          "nombre": "La Asunción de María al cielo",
+          "citaBiblica": "Apocalipsis 12, 1",
+          "meditacion": "María participa plenamente de la victoria de Cristo y nos anima a caminar hacia la vida eterna."
+        },
+        {
+          "numero": 5,
+          "nombre": "La Coronación de María como Reina",
+          "citaBiblica": "Apocalipsis 12, 1; Salmo 45, 10",
+          "meditacion": "María, humilde servidora del Señor, es honrada como Reina y madre que intercede por sus hijos."
+        }
+      ]
+    },
+    {
+      "id": "luminosos",
+      "nombre": "Misterios Luminosos",
+      "descripcion": "Contemplamos momentos centrales de la vida pública de Jesús.",
+      "diasSemana": [4],
+      "misterios": [
+        {
+          "numero": 1,
+          "nombre": "El Bautismo de Jesús en el Jordán",
+          "citaBiblica": "Mateo 3, 13-17",
+          "meditacion": "El Padre presenta a Jesús como su Hijo amado y nos recuerda la gracia recibida en nuestro bautismo."
+        },
+        {
+          "numero": 2,
+          "nombre": "Las bodas de Caná",
+          "citaBiblica": "Juan 2, 1-12",
+          "meditacion": "María nos conduce a confiar en Jesús y a poner en práctica todo lo que Él nos diga."
+        },
+        {
+          "numero": 3,
+          "nombre": "El anuncio del Reino de Dios",
+          "citaBiblica": "Marcos 1, 14-15",
+          "meditacion": "Jesús llama a la conversión, ofrece el perdón y nos invita a construir su Reino."
+        },
+        {
+          "numero": 4,
+          "nombre": "La Transfiguración del Señor",
+          "citaBiblica": "Lucas 9, 28-36",
+          "meditacion": "Jesús revela su gloria y el Padre nos invita a escucharlo y seguir su camino."
+        },
+        {
+          "numero": 5,
+          "nombre": "La Institución de la Eucaristía",
+          "citaBiblica": "Lucas 22, 14-20",
+          "meditacion": "Jesús se entrega como alimento y nos enseña a vivir en comunión y servicio."
+        }
+      ]
+    }
+  ]
+}

@@ -35,6 +35,10 @@ import '../../features/oraciones/presentation/screens/oraciones_screen.dart';
 
 import '../../shared/widgets/coming_soon_screen.dart';
 
+
+import '../../features/rosario/presentation/screens/rosario_screen.dart';
+import '../../features/rosario/presentation/screens/rosario_guia_screen.dart';
+
 final GlobalKey<NavigatorState> _rootNavigatorKey =
     GlobalKey<NavigatorState>();
 
@@ -259,17 +263,21 @@ final appRouterProvider = Provider<GoRouter>(
         ),
 
         // Módulos pendientes.
-        GoRoute(
-          path: '/rosario',
-          parentNavigatorKey:
-              _rootNavigatorKey,
-          builder: (context, state) {
-            return const ComingSoonScreen(
-              titulo: 'Rosario',
-            );
-          },
-        ),
-
+    GoRoute(
+  path: '/rosario',
+  parentNavigatorKey: _rootNavigatorKey,
+  builder: (context, state) {
+    return const RosarioScreen();
+  },
+  routes: [
+    GoRoute(
+      path: 'guia',
+      builder: (context, state) {
+        return const RosarioGuiaScreen();
+      },
+    ),
+  ],
+),
         GoRoute(
           path: '/santoral',
           parentNavigatorKey:
