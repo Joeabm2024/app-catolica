@@ -1,0 +1,86 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return isAuthenticated() &&
+          request.auth.uid == userId;
+    }
+
+    function userDocumentExists() {
+      return isAuthenticated() &&
+          exists(
+            /databases/$(database)/documents/usuarios/$(request.auth.uid)
+          );
+    }
+
+    function isAdmin() {
+      return userDocumentExists() &&
+          get(
+            /databases/$(database)/documents/usuarios/$(request.auth.uid)
+          ).data.rol == 'admin';
+    }
+
+    // Perfil principal del usuario.
+    match /usuarios/{userId} {
+      allow read: if isOwner(userId);
+
+      // Un usuario nuevo solamente puede crearse con rol usuario.
+      // Los administradores deben asignarse desde Firebase Console
+      // o mediante Firebase Admin SDK.
+      allow create: if isOwner(userId) &&
+          request.resource.data.rol == 'usuario';
+
+      // El propietario puede actualizar su información, pero no
+      // modificar su propio rol.
+      allow update: if isOwner(userId) &&
+          request.resource.data.rol ==
+              resource.data.rol;
+
+      allow delete: if isOwner(userId);
+    }
+
+    // Subcolecciones privadas del usuario:
+    // cantos_favoritos, oraciones_favoritas, etc.
+    match /usuarios/{userId}/{document=**} {
+      allow read, write: if isOwner(userId);
+    }
+
+    // Liturgia diaria.
+    match /liturgia_diaria/{fechaId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Catálogo de cantos de solo lectura.
+    //
+    // Flutter únicamente puede leer documentos publicados.
+    // Ni usuarios ni administradores pueden modificar canciones
+    // desde la aplicación.
+    //
+    // Firebase Admin SDK no está sujeto a estas reglas y será el
+    // único mecanismo utilizado para importar el catálogo.
+    match /cantos/{cantoId} {
+      allow read: if isAuthenticated() &&
+          resource.data.publicado == true;
+
+      allow create, update, delete: if false;
+    }
+
+    // Oraciones conserva su administración actual.
+    match /oraciones/{oracionId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAdmin();
+    }
+
+    // Bloqueo predeterminado.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

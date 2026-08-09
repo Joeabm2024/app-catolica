@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020388748270",
+    "project_id": "app-catolica-prod",
+    "storage_bucket": "app-catolica-prod.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020388748270:android:7f395aa2c2aafbfa5dbcff",
+        "android_client_info": {
+          "package_name": "com.tuempresa.appcatolica.app_catolica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJM-YfbalY9rKUO0nRPw_IiMNfQfUX_6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
