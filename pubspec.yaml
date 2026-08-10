@@ -1,4 +1,4 @@
-name: app_catolica
+﻿name: app_catolica
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -47,16 +47,16 @@ dependencies:
   firebase_messaging: ^16.2.2
   google_sign_in: ^7.0.0
 
-  # Estado (Riverpod 3.x, patrÃ³n Notifier moderno, sin build_runner)
+  # Estado (Riverpod 3.x, patrÃƒÂ³n Notifier moderno, sin build_runner)
   flutter_riverpod: ^3.3.2
 
   # Manejo funcional de errores (Either<Failure, Success>)
   fpdart: ^1.1.0
 
-  # Perfil de usuario: selecciÃ³n de foto para el avatar
+  # Perfil de usuario: selecciÃƒÂ³n de foto para el avatar
   image_picker: ^1.1.2
 
-  # Cantos litÃºrgicos: selecciÃ³n de PDF (admin) y apertura/descarga (usuarios)
+  # Cantos litÃƒÂºrgicos: selecciÃƒÂ³n de PDF (admin) y apertura/descarga (usuarios)
   file_picker: ^8.1.4
   url_launcher: ^6.3.1
 
@@ -84,6 +84,8 @@ flutter:
 
   assets:
     - assets/data/rosario.json
+    - assets/data/santos.json
+    - assets/images/santos/
 
   # To add assets to your application, add an assets section, like this:
   # assets:

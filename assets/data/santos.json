@@ -1,0 +1,69 @@
+{
+    "santos":  [
+                   {
+                       "id":  "santa_teresa_benedicta_de_la_cruz",
+                       "nombre":  "Santa Teresa Benedicta de la Cruz",
+                       "nombreSecular":  "Edith Stein",
+                       "dia":  9,
+                       "mes":  8,
+                       "tipoCelebracion":  "Memoria",
+                       "resumen":  "FilÃ³sofa, religiosa carmelita y mÃ¡rtir. BuscÃ³ la verdad con profundidad y entregÃ³ su vida a Dios y al servicio de los demÃ¡s.",
+                       "virtud":  "BÃºsqueda de la verdad",
+                       "oracion":  "Santa Teresa Benedicta de la Cruz, ayÃºdanos a buscar la verdad, vivir con fe y servir con valentÃ­a.",
+                       "imagenAsset":  "assets/images/santos/santa_teresa_benedicta_de_la_cruz.webp",
+                       "imagenGeneradaConIA":  true
+                   },
+                   {
+                       "id":  "san_lorenzo",
+                       "nombre":  "San Lorenzo",
+                       "nombreSecular":  null,
+                       "dia":  10,
+                       "mes":  8,
+                       "tipoCelebracion":  "Fiesta",
+                       "resumen":  "DiÃ¡cono y mÃ¡rtir de la Iglesia de Roma. Es recordado por su servicio a las personas pobres y por su fidelidad a Cristo.",
+                       "virtud":  "Servicio y generosidad",
+                       "oracion":  "San Lorenzo, ensÃ©Ã±anos a servir con alegrÃ­a y a compartir nuestros bienes con quienes mÃ¡s lo necesitan.",
+                       "imagenAsset":  "assets/images/santos/imagen_generica.webp",
+                       "imagenGeneradaConIA":  true
+                   },
+                   {
+                       "id":  "santa_clara_de_asis",
+                       "nombre":  "Santa Clara de AsÃ­s",
+                       "nombreSecular":  null,
+                       "dia":  11,
+                       "mes":  8,
+                       "tipoCelebracion":  "Memoria",
+                       "resumen":  "Fundadora de la Orden de las Hermanas Pobres. ViviÃ³ con sencillez, oraciÃ³n y profunda confianza en Dios.",
+                       "virtud":  "Sencillez y oraciÃ³n",
+                       "oracion":  "Santa Clara de AsÃ­s, ayÃºdanos a vivir con sencillez y a confiar plenamente en Dios.",
+                       "imagenAsset":  "assets/images/santos/imagen_generica.webp",
+                       "imagenGeneradaConIA":  true
+                   },
+                   {
+                       "id":  "san_maximiliano_maria_kolbe",
+                       "nombre":  "San Maximiliano MarÃ­a Kolbe",
+                       "nombreSecular":  null,
+                       "dia":  14,
+                       "mes":  8,
+                       "tipoCelebracion":  "Memoria",
+                       "resumen":  "Sacerdote franciscano y mÃ¡rtir. EntregÃ³ voluntariamente su vida para salvar a otro prisionero durante la Segunda Guerra Mundial.",
+                       "virtud":  "Amor sacrificado",
+                       "oracion":  "San Maximiliano Kolbe, ensÃ©Ã±anos a amar con generosidad y a defender siempre la dignidad de cada persona.",
+                       "imagenAsset":  "assets/images/santos/imagen_generica.webp",
+                       "imagenGeneradaConIA":  true
+                   },
+                   {
+                       "id":  "asuncion_de_la_virgen_maria",
+                       "nombre":  "AsunciÃ³n de la Virgen MarÃ­a",
+                       "nombreSecular":  null,
+                       "dia":  15,
+                       "mes":  8,
+                       "tipoCelebracion":  "Solemnidad",
+                       "resumen":  "La Iglesia celebra que MarÃ­a fue llevada en cuerpo y alma a la gloria celestial al finalizar su vida terrena.",
+                       "virtud":  "Esperanza",
+                       "oracion":  "Virgen MarÃ­a, acompÃ¡Ã±anos en nuestro camino y ayÃºdanos a vivir con esperanza y fidelidad.",
+                       "imagenAsset":  "assets/images/santos/imagen_generica.webp",
+                       "imagenGeneradaConIA":  true
+                   }
+               ]
+}
